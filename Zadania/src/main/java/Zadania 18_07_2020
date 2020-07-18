@@ -1,0 +1,22 @@
+package Zadania
+
+        import java.util.Set;
+public class Zadanie2 {
+
+    public static Set<String> ex2() {
+        Set<String> setExamples = new HashSet<>();
+        setExamples.add("Jan");
+        setExamples.add("Jakub");
+        setExamples.add("January");
+
+        System.out.println("Size: " + setExamples.size());
+
+        return setExamples;
+    }
+
+        public static void main(String[] args) {
+            ex2();
+
+    }
+
+}
